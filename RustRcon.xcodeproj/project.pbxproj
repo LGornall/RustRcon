@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD927791F71A25F007ED855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD927781F71A25F007ED855 /* AppDelegate.swift */; };
+		BFD9277B1F71A25F007ED855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9277A1F71A25F007ED855 /* ViewController.swift */; };
+		BFD9277E1F71A25F007ED855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD9277C1F71A25F007ED855 /* Main.storyboard */; };
+		BFD927811F71A25F007ED855 /* RustRcon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD9277F1F71A25F007ED855 /* RustRcon.xcdatamodeld */; };
+		BFD927831F71A25F007ED855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD927821F71A25F007ED855 /* Assets.xcassets */; };
+		BFD927861F71A25F007ED855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD927841F71A25F007ED855 /* LaunchScreen.storyboard */; };
+		BFD927911F71A25F007ED855 /* RustRconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD927901F71A25F007ED855 /* RustRconTests.swift */; };
+		BFD9279C1F71A25F007ED855 /* RustRconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9279B1F71A25F007ED855 /* RustRconUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD9278D1F71A25F007ED855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD9276D1F71A25F007ED855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD927741F71A25F007ED855;
+			remoteInfo = RustRcon;
+		};
+		BFD927981F71A25F007ED855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD9276D1F71A25F007ED855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD927741F71A25F007ED855;
+			remoteInfo = RustRcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD927751F71A25F007ED855 /* RustRcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RustRcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD927781F71A25F007ED855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD9277A1F71A25F007ED855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFD9277D1F71A25F007ED855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD927801F71A25F007ED855 /* RustRcon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RustRcon.xcdatamodel; sourceTree = "<group>"; };
+		BFD927821F71A25F007ED855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD927851F71A25F007ED855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD927871F71A25F007ED855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD9278C1F71A25F007ED855 /* RustRconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustRconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD927901F71A25F007ED855 /* RustRconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustRconTests.swift; sourceTree = "<group>"; };
+		BFD927921F71A25F007ED855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD927971F71A25F007ED855 /* RustRconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustRconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD9279B1F71A25F007ED855 /* RustRconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustRconUITests.swift; sourceTree = "<group>"; };
+		BFD9279D1F71A25F007ED855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD927721F71A25F007ED855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD927891F71A25F007ED855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD927941F71A25F007ED855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD9276C1F71A25F007ED855 = {
+			isa = PBXGroup;
+			children = (
+				BFD927771F71A25F007ED855 /* RustRcon */,
+				BFD9278F1F71A25F007ED855 /* RustRconTests */,
+				BFD9279A1F71A25F007ED855 /* RustRconUITests */,
+				BFD927761F71A25F007ED855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD927761F71A25F007ED855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD927751F71A25F007ED855 /* RustRcon.app */,
+				BFD9278C1F71A25F007ED855 /* RustRconTests.xctest */,
+				BFD927971F71A25F007ED855 /* RustRconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD927771F71A25F007ED855 /* RustRcon */ = {
+			isa = PBXGroup;
+			children = (
+				BFD927781F71A25F007ED855 /* AppDelegate.swift */,
+				BFD9277A1F71A25F007ED855 /* ViewController.swift */,
+				BFD9277C1F71A25F007ED855 /* Main.storyboard */,
+				BFD927821F71A25F007ED855 /* Assets.xcassets */,
+				BFD927841F71A25F007ED855 /* LaunchScreen.storyboard */,
+				BFD927871F71A25F007ED855 /* Info.plist */,
+				BFD9277F1F71A25F007ED855 /* RustRcon.xcdatamodeld */,
+			);
+			path = RustRcon;
+			sourceTree = "<group>";
+		};
+		BFD9278F1F71A25F007ED855 /* RustRconTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD927901F71A25F007ED855 /* RustRconTests.swift */,
+				BFD927921F71A25F007ED855 /* Info.plist */,
+			);
+			path = RustRconTests;
+			sourceTree = "<group>";
+		};
+		BFD9279A1F71A25F007ED855 /* RustRconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9279B1F71A25F007ED855 /* RustRconUITests.swift */,
+				BFD9279D1F71A25F007ED855 /* Info.plist */,
+			);
+			path = RustRconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD927741F71A25F007ED855 /* RustRcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD927A01F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRcon" */;
+			buildPhases = (
+				BFD927711F71A25F007ED855 /* Sources */,
+				BFD927721F71A25F007ED855 /* Frameworks */,
+				BFD927731F71A25F007ED855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RustRcon;
+			productName = RustRcon;
+			productReference = BFD927751F71A25F007ED855 /* RustRcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD9278B1F71A25F007ED855 /* RustRconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD927A31F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRconTests" */;
+			buildPhases = (
+				BFD927881F71A25F007ED855 /* Sources */,
+				BFD927891F71A25F007ED855 /* Frameworks */,
+				BFD9278A1F71A25F007ED855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD9278E1F71A25F007ED855 /* PBXTargetDependency */,
+			);
+			name = RustRconTests;
+			productName = RustRconTests;
+			productReference = BFD9278C1F71A25F007ED855 /* RustRconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFD927961F71A25F007ED855 /* RustRconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD927A61F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRconUITests" */;
+			buildPhases = (
+				BFD927931F71A25F007ED855 /* Sources */,
+				BFD927941F71A25F007ED855 /* Frameworks */,
+				BFD927951F71A25F007ED855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD927991F71A25F007ED855 /* PBXTargetDependency */,
+			);
+			name = RustRconUITests;
+			productName = RustRconUITests;
+			productReference = BFD927971F71A25F007ED855 /* RustRconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD9276D1F71A25F007ED855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Louis Gornall";
+				TargetAttributes = {
+					BFD927741F71A25F007ED855 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BFD9278B1F71A25F007ED855 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFD927741F71A25F007ED855;
+					};
+					BFD927961F71A25F007ED855 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFD927741F71A25F007ED855;
+					};
+				};
+			};
+			buildConfigurationList = BFD927701F71A25F007ED855 /* Build configuration list for PBXProject "RustRcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD9276C1F71A25F007ED855;
+			productRefGroup = BFD927761F71A25F007ED855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD927741F71A25F007ED855 /* RustRcon */,
+				BFD9278B1F71A25F007ED855 /* RustRconTests */,
+				BFD927961F71A25F007ED855 /* RustRconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD927731F71A25F007ED855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD927861F71A25F007ED855 /* LaunchScreen.storyboard in Resources */,
+				BFD927831F71A25F007ED855 /* Assets.xcassets in Resources */,
+				BFD9277E1F71A25F007ED855 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9278A1F71A25F007ED855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD927951F71A25F007ED855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD927711F71A25F007ED855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD927811F71A25F007ED855 /* RustRcon.xcdatamodeld in Sources */,
+				BFD9277B1F71A25F007ED855 /* ViewController.swift in Sources */,
+				BFD927791F71A25F007ED855 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD927881F71A25F007ED855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD927911F71A25F007ED855 /* RustRconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD927931F71A25F007ED855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD9279C1F71A25F007ED855 /* RustRconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD9278E1F71A25F007ED855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD927741F71A25F007ED855 /* RustRcon */;
+			targetProxy = BFD9278D1F71A25F007ED855 /* PBXContainerItemProxy */;
+		};
+		BFD927991F71A25F007ED855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD927741F71A25F007ED855 /* RustRcon */;
+			targetProxy = BFD927981F71A25F007ED855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD9277C1F71A25F007ED855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD9277D1F71A25F007ED855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD927841F71A25F007ED855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD927851F71A25F007ED855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD9279E1F71A25F007ED855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD9279F1F71A25F007ED855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD927A11F71A25F007ED855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RustRcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFD927A21F71A25F007ED855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RustRcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFD927A41F71A25F007ED855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RustRconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustRcon.app/RustRcon";
+			};
+			name = Debug;
+		};
+		BFD927A51F71A25F007ED855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RustRconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustRcon.app/RustRcon";
+			};
+			name = Release;
+		};
+		BFD927A71F71A25F007ED855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RustRconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RustRcon;
+			};
+			name = Debug;
+		};
+		BFD927A81F71A25F007ED855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RustRconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RustRcon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD927701F71A25F007ED855 /* Build configuration list for PBXProject "RustRcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD9279E1F71A25F007ED855 /* Debug */,
+				BFD9279F1F71A25F007ED855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD927A01F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD927A11F71A25F007ED855 /* Debug */,
+				BFD927A21F71A25F007ED855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFD927A31F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD927A41F71A25F007ED855 /* Debug */,
+				BFD927A51F71A25F007ED855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFD927A61F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD927A71F71A25F007ED855 /* Debug */,
+				BFD927A81F71A25F007ED855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFD9277F1F71A25F007ED855 /* RustRcon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFD927801F71A25F007ED855 /* RustRcon.xcdatamodel */,
+			);
+			currentVersion = BFD927801F71A25F007ED855 /* RustRcon.xcdatamodel */;
+			path = RustRcon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFD9276D1F71A25F007ED855 /* Project object */;
+}
