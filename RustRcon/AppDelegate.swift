@@ -8,15 +8,91 @@
 
 import UIKit
 import CoreData
+import CSVImporter
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    func addGameItemToCoreData(Name: String, shortName: String,Category :String ){
+        let context  = persistentContainer.viewContext
+        let gameItem = Item(context: context)
+        
+        gameItem.name =  Name
+        gameItem.shortName = shortName
+        gameItem.category = Category
+        
+        saveContext()
+        
+    }
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func loadRustItems(){
+        print("Loading items")
+        if let csvPath = Bundle.main.path(forResource: "rustItems", ofType: "csv"){
+            let importer = CSVImporter<[String]>(path: csvPath)
+            importer.startImportingRecords { $0 }.onFinish { importedRecords in
+                for record in importedRecords {
+                    self.addGameItemToCoreData(Name: record[0], shortName: record[1], Category: record[2])
+                }
+            }
+            
+        }
+        //var csvData: String
+        // construction, placeable, medical, resource, food,clothes
+        // ammo, weapons, misc
+        //battery not included
+        // bleach
+        //blood
+    }
+    
+    func registerSettingsBundle(){
+        let appDefaults = [String:AnyObject]()
+        UserDefaults.standard.register(defaults: appDefaults)
+    }
+ 
+    func rustItemsisEmpty() -> Bool
+    {
+        let context  = persistentContainer.viewContext
+        var itemList: [NSManagedObject] = []
+        do { let results = try context.fetch(Item.fetchRequest())
+            itemList = results as! [NSManagedObject]
+        } catch {
+            print(error.localizedDescription)
+        }
+        if(itemList.count > 0){
+            return false
+        
+        }
+        
+        return true
+    }
+    
+    func deleteRustItems(){
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Item")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+        do {
+            try persistentContainer.persistentStoreCoordinator.execute(deleteRequest, with: persistentContainer.viewContext)
+        } catch let error as NSError {
+            print("Error deleting rustItems from Coredata: ",error)
+        }
+    }
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions
+        launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        registerSettingsBundle()
+        
+        let defaults = UserDefaults.standard
+        let chatOption = defaults.bool(forKey:"chat_includeServer")
+        print(chatOption)
+        
+        
+        deleteRustItems()
+        if rustItemsisEmpty(){
+            loadRustItems()
+        }
         return true
     }
 
@@ -45,11 +121,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - Core Data stack
-
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
-         creates and returns a container, having loaded the store for the
+         creates and returns a container, having loaded the store for thezz
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
@@ -84,7 +159,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nserror = error as NSError
-                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+                fatalError("Unresolved error \(nserror.localizedDescription), \(nserror.userInfo)")
             }
         }
     }

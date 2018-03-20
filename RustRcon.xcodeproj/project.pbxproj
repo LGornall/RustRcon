@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B367ED12D27F276BF2E2DC4 /* Pods_RustRcon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF8A9A665C7A36389D8AF8E /* Pods_RustRcon.framework */; };
+		BF04A9571F9810C700324097 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04A9561F9810C700324097 /* EventsTableViewController.swift */; };
+		BF0B34871F9C936000871CC7 /* BannedPlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B34861F9C936000871CC7 /* BannedPlayerTableViewController.swift */; };
+		BF0B34891F9FDAF400871CC7 /* bannedPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B34881F9FDAF400871CC7 /* bannedPlayerCell.swift */; };
+		BF0B348B1F9FE2EE00871CC7 /* WeatherTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B348A1F9FE2EE00871CC7 /* WeatherTableController.swift */; };
+		BF10818B1F855E45004E2608 /* ItemCatergoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF10818A1F855E45004E2608 /* ItemCatergoryTableViewController.swift */; };
+		BF10818D1F85609D004E2608 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF10818C1F85609D004E2608 /* ItemTableViewController.swift */; };
+		BF10818F1F8566CE004E2608 /* ItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF10818E1F8566CE004E2608 /* ItemTableCell.swift */; };
+		BF13CEC91F7320D2007B6DDD /* webRcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF13CEC81F7320D2007B6DDD /* webRcon.swift */; };
+		BF167F861F954005005C533B /* MaintenanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF167F851F954005005C533B /* MaintenanceTableViewController.swift */; };
+		BF247EA41FB226B3009FA92B /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF247EA31FB226B3009FA92B /* aboutViewController.swift */; };
+		BF4214CE1F8D7850009D5679 /* ServerNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4214CD1F8D7850009D5679 /* ServerNavViewController.swift */; };
+		BF7C79B91F770A73002CB510 /* AddServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C79B81F770A73002CB510 /* AddServerViewController.swift */; };
+		BF7D3F071F7FC19200CA5007 /* PlayerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D3F061F7FC19200CA5007 /* PlayerViewCell.swift */; };
+		BF7D3F0F1F8102EB00CA5007 /* PlayerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D3F0E1F8102EB00CA5007 /* PlayerTableView.swift */; };
+		BF83AE7D1FCE163000043794 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF83AE7C1FCE163000043794 /* Settings.bundle */; };
+		BF83AE7F1FCE19CB00043794 /* settingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF83AE7E1FCE19CB00043794 /* settingsBundleHelper.swift */; };
+		BF85D2B01F884537004446E6 /* rustItems.csv in Resources */ = {isa = PBXBuildFile; fileRef = BF85D2AF1F86DCB1004446E6 /* rustItems.csv */; };
+		BF991A7D1FCB12B30086E265 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF991A7C1FCB12B30086E265 /* ChatViewController.swift */; };
+		BF99BF0F1FC6338D00C57DBE /* confirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF99BF0E1FC6338D00C57DBE /* confirmationViewController.swift */; };
+		BF9C35451F76E72300B02E7E /* ServerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9C35441F76E72300B02E7E /* ServerTableCell.swift */; };
+		BFA97DA21F901DB900903FC0 /* ItemPlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA97DA11F901DB900903FC0 /* ItemPlayersView.swift */; };
+		BFB57CB51F76BF9C0066A3D6 /* ServerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB57CB41F76BF9C0066A3D6 /* ServerSelectionViewController.swift */; };
+		BFC202AB1F79A27E005CC9D8 /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC202AA1F79A27E005CC9D8 /* ConsoleViewController.swift */; };
+		BFD725481F791CD60020A4E7 /* ServerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD725471F791CD60020A4E7 /* ServerTabBarController.swift */; };
+		BFD7254A1F7978A20020A4E7 /* PlayersUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD725491F7978A20020A4E7 /* PlayersUIViewController.swift */; };
 		BFD927791F71A25F007ED855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD927781F71A25F007ED855 /* AppDelegate.swift */; };
-		BFD9277B1F71A25F007ED855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9277A1F71A25F007ED855 /* ViewController.swift */; };
 		BFD9277E1F71A25F007ED855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD9277C1F71A25F007ED855 /* Main.storyboard */; };
 		BFD927811F71A25F007ED855 /* RustRcon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD9277F1F71A25F007ED855 /* RustRcon.xcdatamodeld */; };
 		BFD927831F71A25F007ED855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD927821F71A25F007ED855 /* Assets.xcassets */; };
 		BFD927861F71A25F007ED855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD927841F71A25F007ED855 /* LaunchScreen.storyboard */; };
 		BFD927911F71A25F007ED855 /* RustRconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD927901F71A25F007ED855 /* RustRconTests.swift */; };
 		BFD9279C1F71A25F007ED855 /* RustRconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9279B1F71A25F007ED855 /* RustRconUITests.swift */; };
+		BFDF96161F8ABFFD00B2387C /* itemDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF96151F8ABFFD00B2387C /* itemDetailTableViewController.swift */; };
+		BFFF5DBF1F843C6E00225C91 /* CommandsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF5DBE1F843C6E00225C91 /* CommandsTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +62,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DF8A9A665C7A36389D8AF8E /* Pods_RustRcon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RustRcon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04A9561F9810C700324097 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		BF0B34861F9C936000871CC7 /* BannedPlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannedPlayerTableViewController.swift; sourceTree = "<group>"; };
+		BF0B34881F9FDAF400871CC7 /* bannedPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannedPlayerCell.swift; sourceTree = "<group>"; };
+		BF0B348A1F9FE2EE00871CC7 /* WeatherTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableController.swift; sourceTree = "<group>"; };
+		BF10818A1F855E45004E2608 /* ItemCatergoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCatergoryTableViewController.swift; sourceTree = "<group>"; };
+		BF10818C1F85609D004E2608 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		BF10818E1F8566CE004E2608 /* ItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableCell.swift; sourceTree = "<group>"; };
+		BF13CEC81F7320D2007B6DDD /* webRcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webRcon.swift; sourceTree = "<group>"; };
+		BF167F851F954005005C533B /* MaintenanceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceTableViewController.swift; sourceTree = "<group>"; };
+		BF247EA31FB226B3009FA92B /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		BF4214CD1F8D7850009D5679 /* ServerNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerNavViewController.swift; sourceTree = "<group>"; };
+		BF7C79B81F770A73002CB510 /* AddServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerViewController.swift; sourceTree = "<group>"; };
+		BF7D3F061F7FC19200CA5007 /* PlayerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewCell.swift; sourceTree = "<group>"; };
+		BF7D3F0E1F8102EB00CA5007 /* PlayerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableView.swift; sourceTree = "<group>"; };
+		BF83AE7C1FCE163000043794 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		BF83AE7E1FCE19CB00043794 /* settingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsBundleHelper.swift; sourceTree = "<group>"; };
+		BF85D2AF1F86DCB1004446E6 /* rustItems.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = rustItems.csv; sourceTree = "<group>"; };
+		BF991A7C1FCB12B30086E265 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BF99BF0E1FC6338D00C57DBE /* confirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmationViewController.swift; sourceTree = "<group>"; };
+		BF9C35441F76E72300B02E7E /* ServerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTableCell.swift; sourceTree = "<group>"; };
+		BFA97DA11F901DB900903FC0 /* ItemPlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlayersView.swift; sourceTree = "<group>"; };
+		BFB57CB41F76BF9C0066A3D6 /* ServerSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSelectionViewController.swift; sourceTree = "<group>"; };
+		BFC202AA1F79A27E005CC9D8 /* ConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+		BFD725471F791CD60020A4E7 /* ServerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTabBarController.swift; sourceTree = "<group>"; };
+		BFD725491F7978A20020A4E7 /* PlayersUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersUIViewController.swift; sourceTree = "<group>"; };
 		BFD927751F71A25F007ED855 /* RustRcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RustRcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD927781F71A25F007ED855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFD9277A1F71A25F007ED855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFD9277D1F71A25F007ED855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFD927801F71A25F007ED855 /* RustRcon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RustRcon.xcdatamodel; sourceTree = "<group>"; };
 		BFD927821F71A25F007ED855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +101,10 @@
 		BFD927971F71A25F007ED855 /* RustRconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustRconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD9279B1F71A25F007ED855 /* RustRconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustRconUITests.swift; sourceTree = "<group>"; };
 		BFD9279D1F71A25F007ED855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDF96151F8ABFFD00B2387C /* itemDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemDetailTableViewController.swift; sourceTree = "<group>"; };
+		BFFF5DBE1F843C6E00225C91 /* CommandsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsTableView.swift; sourceTree = "<group>"; };
+		C45A0CBBA5B649B058DBBEF8 /* Pods-RustRcon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RustRcon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RustRcon/Pods-RustRcon.debug.xcconfig"; sourceTree = "<group>"; };
+		FC6643025422D7092E0DE26D /* Pods-RustRcon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RustRcon.release.xcconfig"; path = "Pods/Target Support Files/Pods-RustRcon/Pods-RustRcon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B367ED12D27F276BF2E2DC4 /* Pods_RustRcon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +133,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5A21EE075D32C243FF8A278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8A9A665C7A36389D8AF8E /* Pods_RustRcon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF13CEC71F7320A8007B6DDD /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				BF13CEC81F7320D2007B6DDD /* webRcon.swift */,
+			);
+			name = helper;
+			sourceTree = "<group>";
+		};
+		BF167F841F953E50005C533B /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				BF167F851F954005005C533B /* MaintenanceTableViewController.swift */,
+				BF04A9561F9810C700324097 /* EventsTableViewController.swift */,
+				BF0B34861F9C936000871CC7 /* BannedPlayerTableViewController.swift */,
+				BF0B348A1F9FE2EE00871CC7 /* WeatherTableController.swift */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		BF4214CC1F8D6CEA009D5679 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				BFD725491F7978A20020A4E7 /* PlayersUIViewController.swift */,
+				BF7D3F0E1F8102EB00CA5007 /* PlayerTableView.swift */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
 		BFD9276C1F71A25F007ED855 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +176,11 @@
 				BFD9278F1F71A25F007ED855 /* RustRconTests */,
 				BFD9279A1F71A25F007ED855 /* RustRconUITests */,
 				BFD927761F71A25F007ED855 /* Products */,
+				D936F2F8CE77910042ACB86A /* Pods */,
+				B5A21EE075D32C243FF8A278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		BFD927761F71A25F007ED855 /* Products */ = {
 			isa = PBXGroup;
@@ -99,13 +195,18 @@
 		BFD927771F71A25F007ED855 /* RustRcon */ = {
 			isa = PBXGroup;
 			children = (
-				BFD927781F71A25F007ED855 /* AppDelegate.swift */,
-				BFD9277A1F71A25F007ED855 /* ViewController.swift */,
+				BFD927AA1F71A4FB007ED855 /* View */,
+				BFD927AB1F71A51C007ED855 /* Controller */,
+				BFD927A91F71A4EC007ED855 /* Model */,
+				BF13CEC71F7320A8007B6DDD /* helper */,
 				BFD9277C1F71A25F007ED855 /* Main.storyboard */,
+				BFD927781F71A25F007ED855 /* AppDelegate.swift */,
 				BFD927821F71A25F007ED855 /* Assets.xcassets */,
 				BFD927841F71A25F007ED855 /* LaunchScreen.storyboard */,
 				BFD927871F71A25F007ED855 /* Info.plist */,
 				BFD9277F1F71A25F007ED855 /* RustRcon.xcdatamodeld */,
+				BF83AE7C1FCE163000043794 /* Settings.bundle */,
+				BF83AE7E1FCE19CB00043794 /* settingsBundleHelper.swift */,
 			);
 			path = RustRcon;
 			sourceTree = "<group>";
@@ -128,6 +229,64 @@
 			path = RustRconUITests;
 			sourceTree = "<group>";
 		};
+		BFD927A91F71A4EC007ED855 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF85D2AF1F86DCB1004446E6 /* rustItems.csv */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BFD927AA1F71A4FB007ED855 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C35441F76E72300B02E7E /* ServerTableCell.swift */,
+				BF7D3F061F7FC19200CA5007 /* PlayerViewCell.swift */,
+				BF10818E1F8566CE004E2608 /* ItemTableCell.swift */,
+				BF0B34881F9FDAF400871CC7 /* bannedPlayerCell.swift */,
+				BF99BF0E1FC6338D00C57DBE /* confirmationViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BFD927AB1F71A51C007ED855 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF167F841F953E50005C533B /* Commands */,
+				BF4214CC1F8D6CEA009D5679 /* Players */,
+				BFDF96141F8ABFCA00B2387C /* items */,
+				BFB57CB41F76BF9C0066A3D6 /* ServerSelectionViewController.swift */,
+				BF7C79B81F770A73002CB510 /* AddServerViewController.swift */,
+				BFFF5DBE1F843C6E00225C91 /* CommandsTableView.swift */,
+				BFC202AA1F79A27E005CC9D8 /* ConsoleViewController.swift */,
+				BFD725471F791CD60020A4E7 /* ServerTabBarController.swift */,
+				BF4214CD1F8D7850009D5679 /* ServerNavViewController.swift */,
+				BF247EA31FB226B3009FA92B /* aboutViewController.swift */,
+				BF991A7C1FCB12B30086E265 /* ChatViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFDF96141F8ABFCA00B2387C /* items */ = {
+			isa = PBXGroup;
+			children = (
+				BF10818A1F855E45004E2608 /* ItemCatergoryTableViewController.swift */,
+				BF10818C1F85609D004E2608 /* ItemTableViewController.swift */,
+				BFDF96151F8ABFFD00B2387C /* itemDetailTableViewController.swift */,
+				BFA97DA11F901DB900903FC0 /* ItemPlayersView.swift */,
+			);
+			name = items;
+			sourceTree = "<group>";
+		};
+		D936F2F8CE77910042ACB86A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C45A0CBBA5B649B058DBBEF8 /* Pods-RustRcon.debug.xcconfig */,
+				FC6643025422D7092E0DE26D /* Pods-RustRcon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD927A01F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRcon" */;
 			buildPhases = (
+				FC1F2C792BD1BDD80814DE2E /* [CP] Check Pods Manifest.lock */,
 				BFD927711F71A25F007ED855 /* Sources */,
 				BFD927721F71A25F007ED855 /* Frameworks */,
 				BFD927731F71A25F007ED855 /* Resources */,
+				CB40407958DA40090582894C /* [CP] Embed Pods Frameworks */,
+				E03187B01B22C1DCB260FF08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,20 +353,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Louis Gornall";
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ShantyShackApps;
 				TargetAttributes = {
 					BFD927741F71A25F007ED855 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 37WKYE59B3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					BFD9278B1F71A25F007ED855 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BFD927741F71A25F007ED855;
 					};
 					BFD927961F71A25F007ED855 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BFD927741F71A25F007ED855;
 					};
@@ -235,7 +401,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF85D2B01F884537004446E6 /* rustItems.csv in Resources */,
 				BFD927861F71A25F007ED855 /* LaunchScreen.storyboard in Resources */,
+				BF83AE7D1FCE163000043794 /* Settings.bundle in Resources */,
 				BFD927831F71A25F007ED855 /* Assets.xcassets in Resources */,
 				BFD9277E1F71A25F007ED855 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +425,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB40407958DA40090582894C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RustRcon/Pods-RustRcon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CSVImporter/CSVImporter.framework",
+				"${BUILT_PRODUCTS_DIR}/HandySwift/HandySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSVImporter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RustRcon/Pods-RustRcon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03187B01B22C1DCB260FF08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RustRcon/Pods-RustRcon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1F2C792BD1BDD80814DE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RustRcon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFD927711F71A25F007ED855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF13CEC91F7320D2007B6DDD /* webRcon.swift in Sources */,
+				BFC202AB1F79A27E005CC9D8 /* ConsoleViewController.swift in Sources */,
+				BF4214CE1F8D7850009D5679 /* ServerNavViewController.swift in Sources */,
+				BFD725481F791CD60020A4E7 /* ServerTabBarController.swift in Sources */,
+				BF0B34891F9FDAF400871CC7 /* bannedPlayerCell.swift in Sources */,
+				BF9C35451F76E72300B02E7E /* ServerTableCell.swift in Sources */,
+				BF83AE7F1FCE19CB00043794 /* settingsBundleHelper.swift in Sources */,
+				BF0B348B1F9FE2EE00871CC7 /* WeatherTableController.swift in Sources */,
+				BF10818F1F8566CE004E2608 /* ItemTableCell.swift in Sources */,
+				BFFF5DBF1F843C6E00225C91 /* CommandsTableView.swift in Sources */,
 				BFD927811F71A25F007ED855 /* RustRcon.xcdatamodeld in Sources */,
-				BFD9277B1F71A25F007ED855 /* ViewController.swift in Sources */,
+				BF167F861F954005005C533B /* MaintenanceTableViewController.swift in Sources */,
+				BF7D3F071F7FC19200CA5007 /* PlayerViewCell.swift in Sources */,
+				BFDF96161F8ABFFD00B2387C /* itemDetailTableViewController.swift in Sources */,
+				BFD7254A1F7978A20020A4E7 /* PlayersUIViewController.swift in Sources */,
+				BF247EA41FB226B3009FA92B /* aboutViewController.swift in Sources */,
+				BF10818B1F855E45004E2608 /* ItemCatergoryTableViewController.swift in Sources */,
+				BF10818D1F85609D004E2608 /* ItemTableViewController.swift in Sources */,
+				BFB57CB51F76BF9C0066A3D6 /* ServerSelectionViewController.swift in Sources */,
+				BFA97DA21F901DB900903FC0 /* ItemPlayersView.swift in Sources */,
 				BFD927791F71A25F007ED855 /* AppDelegate.swift in Sources */,
+				BF7D3F0F1F8102EB00CA5007 /* PlayerTableView.swift in Sources */,
+				BF99BF0F1FC6338D00C57DBE /* confirmationViewController.swift in Sources */,
+				BF991A7D1FCB12B30086E265 /* ChatViewController.swift in Sources */,
+				BF04A9571F9810C700324097 /* EventsTableViewController.swift in Sources */,
+				BF7C79B91F770A73002CB510 /* AddServerViewController.swift in Sources */,
+				BF0B34871F9C936000871CC7 /* BannedPlayerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +579,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -337,7 +589,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -360,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -379,7 +635,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -387,7 +645,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -404,7 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -414,25 +676,39 @@
 		};
 		BFD927A11F71A25F007ED855 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45A0CBBA5B649B058DBBEF8 /* Pods-RustRcon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37WKYE59B3;
 				INFOPLIST_FILE = RustRcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BFD927A21F71A25F007ED855 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6643025422D7092E0DE26D /* Pods-RustRcon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37WKYE59B3;
 				INFOPLIST_FILE = RustRcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -445,7 +721,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustRcon.app/RustRcon";
 			};
 			name = Debug;
@@ -459,7 +736,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustRcon.app/RustRcon";
 			};
 			name = Release;
@@ -472,7 +750,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = RustRcon;
 			};
 			name = Debug;
@@ -485,7 +764,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LouisGornall.RustRconUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = RustRcon;
 			};
 			name = Release;
@@ -509,6 +789,7 @@
 				BFD927A21F71A25F007ED855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFD927A31F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRconTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +798,7 @@
 				BFD927A51F71A25F007ED855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFD927A61F71A25F007ED855 /* Build configuration list for PBXNativeTarget "RustRconUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +807,7 @@
 				BFD927A81F71A25F007ED855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

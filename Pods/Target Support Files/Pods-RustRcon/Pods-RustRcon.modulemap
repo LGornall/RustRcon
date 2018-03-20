@@ -1,0 +1,6 @@
+framework module Pods_RustRcon {
+  umbrella header "Pods-RustRcon-umbrella.h"
+
+  export *
+  module * { export * }
+}
